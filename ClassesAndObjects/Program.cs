@@ -10,9 +10,12 @@ namespace ClassesAndObjects
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to the classes concept");
-            Car car = new Car();
+            Console.WriteLine("Welcome to the classes conce");
+            Car car = new Car(); //class object
             Console.WriteLine(car.color);
+            Console.WriteLine(car.modelName);
+            car.MyMethod();
+
         }
     }
 }
